@@ -29,3 +29,12 @@ Route::get('/helloYou', function (){
 
    ]);
 });
+
+Route::get('/helloYou2', function (){
+   return view('helloYou',
+   [
+
+     'name' => 'Christian Pucci'
+
+   ]);
+});
