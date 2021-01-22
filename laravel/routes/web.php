@@ -35,3 +35,4 @@ Route::get('/helloYou2', function (){
 
 Route::get('/holaTodo','MainController@holaTodo');
 Route::get('/holaTu', 'MainController@holaTu');
+Route::get('/holaTu2', 'MainController@holaTu2');

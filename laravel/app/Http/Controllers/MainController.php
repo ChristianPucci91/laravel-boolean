@@ -19,5 +19,14 @@ class MainController extends Controller
    ]);
   }
 
+  public function holaTu2() {
+    return view('holaTu',
+   [
+
+    'nombre' => 'Don Diego de la Vega'
+
+   ]);
+  }
+
 
 }
